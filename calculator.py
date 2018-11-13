@@ -48,3 +48,4 @@ btn_equals=Button(cal,padx=16,pady=16,bd=8, fg="black",font=('arial',20,'bold'),
 btn_div=Button(cal,padx=16,pady=16,bd=8, fg="black",font=('arial',20,'bold'),text="/",command=lambda:btnClick("/"),bg="powder blue").grid(row=4,column=3)
 
 #=============================================================================================================================================================
+cal.mainloop()
